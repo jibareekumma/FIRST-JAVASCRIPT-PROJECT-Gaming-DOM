@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale =1.0" />
+    <meta name="author" content="Jibare Ekumma" />
+    <link rel="icon" href="images/icon.jfif" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GAME DOM</title>
+  </head>
+  <body>
+    <header>
+      <button class="againBtn">Again</button>
+      <div class="betweenTexts">< Between 1 and 20></div>
+    </header>
+    <main>
+      <h1>Guess My Number</h1>
+      <hr />
+      <input type="text" class="secretNumber" value="?" />
+      <div id="cta">
+        <section id="inputSct">
+          <input type="number" class="numberInput" />
+          <button class="checkBtn">Check!</button>
+        </section>
+        <section class="resultSct">
+          <div>
+            <p class="resultMsg">Start Playing</p>
+          </div>
+          <div>
+            <p class="scoreMsg">
+              💯 Points left: <span class="scoreNmb">20</span>
+            </p>
+            <p class="highscoreMsg">
+              🥂 Highscore : <span class="highScore"> 0 </span>
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

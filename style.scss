@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    src: url(fonts/Limelight-Regular.ttf);
+    font-family: limeLight;
+}
+@font-face{
+    src: url(fonts/Creepster-Regular.ttf);
+    font-family: creepster;
+}
+html{
+    font-size: 62.5%;
+}
+
+ body{
+    color: white;
+    background-color: rgb(7, 7, 136);
+    width: 70vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    font-weight: 800;
+    font-family: creepster;
+ }
+
+ button{
+    font-family: creepster;
+ }
+ input{ 
+    font-family: creepster;
+    border: none;
+    border-radius: 4px;
+ }
+
+
+header{
+    // border: 2px solid black;
+    margin-top: 3rem;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+
+    .againBtn{
+        width: 10rem;
+        color: black;
+        height: 3rem;
+        display: flex;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6rem;
+        border-radius: 4px;
+    }
+
+    .betweenTexts{
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+}
+
+h1{
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 7rem;
+    word-spacing: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    height: 1rem;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.secretNumber{
+    width: 12rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    bottom: 3.4rem;
+    left: 44%;
+    margin-bottom: 7rem;
+}
+
+#cta{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#inputSct{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .numberInput{
+        width: 15rem;
+        height: 6rem;
+        text-align: center;
+        background-color: transparent;
+        border: 3px solid white;
+        font-size: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .checkBtn{
+        width: 8rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.resultSct{
+    width: 50%;
+    // border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
